@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_list_about"
+        android:title="@string/menu_item_about"
+        app:showAsAction="never"
+        />
+
+    <!--<item-->
+        <!--android:id="@+id/menu_item_list_dark"-->
+        <!--android:title="@string/menu_item_list_dark"-->
+        <!--app:showAsAction="never"-->
+        <!--/>-->
+
+    <!--<item-->
+        <!--android:id="@+id/menu_item_list_settings"-->
+        <!--android:title="@string/menu_item_list_settings"-->
+        <!--app:showAsAction="never"-->
+        <!--/>-->
+
+</menu>

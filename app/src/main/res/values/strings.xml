@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">知乎日报by Lee</string>
+    <string name="menu_item_share">分享</string>
+    <string name="menu_item_comment">评论</string>
+    <string name="menu_item_list_dark">夜间模式</string>
+    <string name="menu_item_list_settings">设置选项</string>
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    <string name="toolbarTitleShouYe">首页</string>
+    <string name="poll_to_load_more">下拉加载更多</string>
+    <string name="is_loading">正在加载……</string>
+    <string name="empty_message">当前无网络！</string>
+    <string name="get_a_new_news">有最新的日报可供查看</string>
+    <string name="zhi_hu_daily_author">知乎日报by Lee</string>
+    <string name="zhi_hu_daily_ads">每天三次，每次七分钟</string>
+    <string name="toolbar_shou_ye">首页</string>
+    <string name="menu_item_about">关于</string>
+</resources>

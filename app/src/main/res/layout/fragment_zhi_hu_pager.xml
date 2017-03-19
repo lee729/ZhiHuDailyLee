@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/fragment_zhi_hu_pager_frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/fragment_zhi_hu_pager_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentTop="true"/>
+            <TextView
+                android:id="@+id/fragment_zhi_hu_pager_image_resource"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="测试"
+                android:textColor="@color/colorWhite"
+                android:paddingRight="10dp"
+                android:layout_gravity="bottom|right"/>
+        </FrameLayout>
+
+        <WebView
+            android:id="@+id/fragment_zhi_hu_page_web_view"
+            android:layout_below="@id/fragment_zhi_hu_pager_frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            ></WebView>
+    </RelativeLayout>
+</ScrollView>
+
+

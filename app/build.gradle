@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.example.lee.zhihu"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:recyclerview-v7:25.1.0'
+    compile 'it.sephiroth.android.library.picasso:picasso:2.5.2.4b'
+    compile 'eu.the4thfloor.volley:com.android.volley:2015.05.28'
+//    compile project(':cptr')
+    compile 'com.android.support:cardview-v7:22.2.1'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.8.6'
+    //2017-3-16,从https://github.com/CymChad/BaseRecyclerViewAdapterHelper/wiki/%E9%A6%96%E9%A1%B5添加第三方baseRecyclerAdapter库
+    compile files('build/jsoup-1.10.2.jar')
+}

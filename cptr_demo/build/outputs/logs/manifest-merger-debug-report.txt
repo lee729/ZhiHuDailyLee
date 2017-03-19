@@ -1,0 +1,78 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:3:5-36
+	android:versionName
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:4:5-28
+		INJECTED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml
+		INJECTED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:7:5-8:37
+MERGED from [ZhiHu:cptr:1.1.0] F:\AndroidStudio\project\ZhiHu\cptr_demo\build\intermediates\exploded-aar\ZhiHu\cptr\1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:23.1.0] F:\AndroidStudio\project\ZhiHu\cptr_demo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] F:\AndroidStudio\project\ZhiHu\cptr_demo\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.0] F:\AndroidStudio\project\ZhiHu\cptr_demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] F:\AndroidStudio\project\ZhiHu\cptr_demo\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from [ZhiHu:cptr:1.1.0] F:\AndroidStudio\project\ZhiHu\cptr_demo\build\intermediates\exploded-aar\ZhiHu\cptr\1.1.0\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:8:9-35
+application
+ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:10:5-36:19
+MERGED from [ZhiHu:cptr:1.1.0] F:\AndroidStudio\project\ZhiHu\cptr_demo\build\intermediates\exploded-aar\ZhiHu\cptr\1.1.0\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:support-v4:23.1.0] F:\AndroidStudio\project\ZhiHu\cptr_demo\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.0] F:\AndroidStudio\project\ZhiHu\cptr_demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] F:\AndroidStudio\project\ZhiHu\cptr_demo\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:12:9-45
+	android:theme
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:14:9-40
+activity#com.chanven.cptr.demo.MainActivity
+ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:15:9-23:20
+	android:label
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:17:13-45
+	android:name
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:16:13-62
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:21:27-74
+activity#com.chanven.cptr.demo.ListViewActivity
+ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:24:9-26:61
+	android:label
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:26:13-59
+	android:name
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:25:13-66
+activity#com.chanven.cptr.demo.RecyclerViewActivity
+ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:27:9-29:65
+	android:label
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:29:13-63
+	android:name
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:28:13-70
+activity#com.chanven.cptr.demo.GridViewAtivity
+ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:30:9-32:61
+	android:label
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:32:13-59
+	android:name
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:31:13-65
+activity#com.chanven.cptr.demo.SwipeListViewActivity
+ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:33:9-35:67
+	android:label
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:35:13-65
+	android:name
+		ADDED from F:\AndroidStudio\project\ZhiHu\cptr_demo\AndroidManifest.xml:34:13-71
